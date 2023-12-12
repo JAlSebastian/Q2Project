@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230611/pngtree-rice-terrace-with-houses-on-it-image_2956184.jpg);
+
+  	}
+
+    .gallery {
+      display: flex;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 485px;
+      height: auto;
+      margin: 10px;
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    h1{
+    	border: 1px solid black;
+    	background-color: #F88158;
+    	display: inline-block;
+    }
+    #box{
+			width: 480px;
+			height: 150px;
+			padding: 10px;
+			border: 2px solid blue ;
+			border-style: dashed dotted;
+			margin: 0px;
+			background-color: #63C5DA;
+			text-align: left;
+		}
+	#box2{
+			width: 480px;
+			height: 150px;
+			padding: 10px;
+			border: 2px solid blue ;
+			border-style: dashed dotted;
+			margin: 0px;
+			background-color: lightgreen ;
+			text-align: left;
+			
+	}
+	#box3{
+			width: 480px;
+			height: 150px;
+			padding: 10px;
+			border: 2px solid blue ;
+			border-style: dashed dotted;
+			margin: 0px;
+			background-color: #FBEC5D ;
+			text-align: left;
+	}
+
+	#boxmodels{
+				display: inline-flex;
+	}
+	#reference{
+				color: white;
+	}
+	.referencehead{
+			color: lightblue;
+	}
+	#destination{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#survey{
+		text-align: center;
+		color: white;
+		font-weight: bold;
+	}
+	#links{
+		background-color: #F4FAFC;
+		border: 2px solid black;
+		display: inline-flex;
+	}
+  </style>
+  <title>Photo Gallery</title>
+</head>
+<body>
+  <h1>One of the best destinations in the Philippines</h1>
+  <div class="gallery">
+    <img src="https://media.licdn.com/dms/image/C5112AQEnCTsREYlelw/article-cover_image-shrink_600_2000/0/1521626672529?e=2147483647&v=beta&t=7zqpy6UOLkdaImnzTSnwARWfz9PhsAU8p5B650f6X5g" alt="Zamboanga pink sand beach">
+
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f1/6a/94/camp-netanya.jpg?w=700&h=-1&s=1" alt="Camp Netanya Batangas">
+
+   <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Sabtang_Batanes.jpg" alt="batanes">
+
+	</div>
+	<table border="5px">
+<div id="boxmodels">
+	<tr>
+		<td>
+	<div id="box">
+		<span id="destination">Pink Sand Beach, Zamboanga City</span><br><br>Zamboanga is the city where I was born. Even though people stereotype Zamboanga as a dangerous place because of the wars that happened in the past. It still treasures a lot of beuatiful places and scenery. In Zamboanga, you get to experience eating seafood by the beach, snorkeling and of coure their beautiful pink sand beach.
+	</div>
+		</td>
+		<td>
+	<div id="box2">
+		<span id="destination">Camp Netanya, Batangas</span><br><br>This is my first out of town trip with my family. This place is inspired by Santorini in Greeece. When I was here, I experience a lot of activies such as kayaking, swimming with the fishes and island hopping. You can also take IG worthy photos with the Greek vibes of the place.
+	</div>
+		</td>
+		<td>
+	<div id="box3">
+		<span id="destination">Batanes</span><br><br>It is known for its remote location which is situated at the top of the Philippines. In fact to arrive in Batanes, you need to board a plane which is smaller than a regular one. In Batanes, you get to experience breathtaking views, their beutiful culture and their hospitble locals.
+	</div>
+		</td>
+	</tr>
+</div>
+</table>
+<div id="survey">
+<form>
+	<p>Out of these destination where do you want to go?</p>
+	<select name="favorite destination" id="destinationsurvey">
+		<option value="none">Destinations</option>
+		<option value="Zamboanga">Pink Sand Beach, Zamboanga City</option>
+		<option value="Batangas">Camp Netanya, Batangas</option>
+		<option value="Batanes">Batanes</option>
+	</select>
+</br></br>
+		<input type="submit" name="submit" id="submit" value="Submit">
+</form>
+</div>
+<br><br><br><br><br><br><br>
+<div id="reference">
+	<span class="referencehead">References:</span><br>
+  	<ul type="circle">
+  		<div id="links">
+    	<li>
+     	 <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBatanes&psig=AOvVaw0Zs4JDtlpEpthbdhnkn_FF&ust=1701304143081000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCND0hvr554IDFQAAAAAdAAAAABAJ">Batanes</a>
+   		</li>
+   		</div>
+   		<br>
+   		<div id="links">
+    	<li>
+    	<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fzamboanga-citys-world-famous-pink-sand-beach-armand-dean-nocum&psig=AOvVaw1x7TlORYMnBoAGafaL-xTm&ust=1701303760930000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjXxbL654IDFQAAAAAdAAAAABAE">Zamboanga</a>
+    	</li>
+    	</div>
+    	<br>
+    	<div id="links">
+    	<li>
+    	<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FHotel_Review-g1587920-d6539679-Reviews-Camp_Netanya_Resort_and_Spa-Mabini_Batangas_Province_Calabarzon_Region_Luzon.html&psig=AOvVaw34_OqSunWbQSnj1y6_mh6M&ust=1701304066387000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjOnL_654IDFQAAAAAdAAAAABAE">Batangas</a>
+    	</li>
+    	</div>
+  	</ul>
+</div>
+</body>
+</html>
